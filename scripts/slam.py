@@ -21,8 +21,6 @@ import torch.nn.functional as F
 from tqdm import tqdm
 import wandb
 
-from chamferdist.chamfer import knn_points
-
 from datasets.gradslam_datasets import (
     load_dataset_config,
     ICLDataset,
@@ -107,13 +105,7 @@ def get_pointcloud(color, depth, intrinsics, w2c, transform_pts=True,
 
     # Compute mean squared distance for initializing the scale of the Gaussians
     if compute_mean_sq_dist:
-        if mean_sq_dist_method == "knn":
-            # KNN to compute mean squared distance (this is slow)
-            knn_pts = pts.unsqueeze(0)
-            sq_dist, _, _ = knn_points(knn_pts, knn_pts, K=3)
-            sq_dist = sq_dist.squeeze(0)
-            mean3_sq_dist = sq_dist.mean(-1).clip(min=0.0000001)
-        elif mean_sq_dist_method == "projective":
+        if mean_sq_dist_method == "projective":
             # Projective Geometry (this is fast, farther -> larger radius)
             scale_gaussian = depth_z / ((FX + FY)/2)
             mean3_sq_dist = scale_gaussian**2
