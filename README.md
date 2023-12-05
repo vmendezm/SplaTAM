@@ -24,11 +24,13 @@
 
 <p align="center">
   <a href="">
-    <img src="./assets/teaser.gif" alt="Logo" width="100%">
+    <img src="./assets/1.gif" alt="Logo" width="100%">
   </a>
 </p>
 
 <br>
+
+## SplaTAM V2 - Faster, Better and Stronger SLAM Update Coming Soon!
 
 <!-- TABLE OF CONTENTS -->
 <details open="open" style='padding: 10px; border-radius:5px 30px 30px 5px; border-style: solid; border-width: 1px;'>
@@ -88,7 +90,7 @@ On the app, keep clicking send for successive frames, and watch SplaTAM's recons
 
 <p align="center">
   <a href="">
-    <img src="./assets/image.png" alt="Logo" width="75%">
+    <img src="./assets/collage.gif" alt="Logo" width="75%">
   </a>
 </p>
 
