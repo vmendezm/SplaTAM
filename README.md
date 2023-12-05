@@ -40,10 +40,10 @@
       <a href="#installation">Installation</a>
     </li>
     <li>
-      <a href="#downloads">Downloads</a>
+      <a href="#demo">Online Demo</a>
     </li>
     <li>
-      <a href="#demo">Online Demo</a>
+      <a href="#downloads">Downloads</a>
     </li>
     <li>
       <a href="#run">Run</a>
