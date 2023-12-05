@@ -30,7 +30,7 @@
 
 <br>
 
-## SplaTAM V2 - Faster, Better and Stronger SLAM Update Coming Soon!
+## Coming Soon: Stay Tuned for Faster, Better and Stronger SplaTAM V2 Update!  
 
 <!-- TABLE OF CONTENTS -->
 <details open="open" style='padding: 10px; border-radius:5px 30px 30px 5px; border-style: solid; border-width: 1px;'>
