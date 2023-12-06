@@ -73,6 +73,8 @@ The simplest way is to use [anaconda](https://www.anaconda.com/).
 
 You can create an anaconda environment called `splatam`.
 ```bash
+git clone https://github.com/spla-tam/SplaTAM.git
+cd SplaTAM
 conda env create -f environment.yml
 conda activate splatam
 ```
